@@ -1,0 +1,26 @@
+{
+  "name": "typescript-simple-blockchain",
+  "version": "1.0.0",
+  "description": "Изучение TypeScript с помощью создания блокчейна",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc-watch --onSuccess \"node dist/index.js\" ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Futli/typescript-simple-blockchain.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Futli/typescript-simple-blockchain/issues"
+  },
+  "homepage": "https://github.com/Futli/typescript-simple-blockchain#readme",
+  "devDependencies": {
+    "tsc-watch": "^6.0.4"
+  },
+  "dependencies": {
+    "crypto-js": "^4.2.0"
+  }
+}
